@@ -1,16 +1,23 @@
 /* eslint-disable react/react-in-jsx-scope */
 
-import './App.css';
-import Teste from './Teste';
+import Sidebar from './containers/Sidebar';
+import EstiloGlobal, { Container } from './styles';
+import Sobre from './containers/Sobre';
+import Projetos from './containers/Projetos';
 
 function App() {
-    return (
-        <>
-            <h1>Hello React!</h1>
-            <h2>Testando erros</h2>
-            <Teste />
-        </>
-    );
+  return (
+    <>
+      <EstiloGlobal />
+      <Container>
+        <Sidebar />
+        <main>
+          <Sobre />
+          <Projetos />
+        </main>
+      </Container>
+    </>
+  );
 }
 
 export default App;
