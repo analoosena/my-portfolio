@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 
-import { ThemeProvider } from  'styled-components';
+import { ThemeProvider } from  'styled-components'; //A biblioteca permite criar estilos no JavaScript e oferece suporte ao conceito de temas.
 import { useState } from 'react';
 
 import Sidebar from './containers/Sidebar';
@@ -22,7 +22,7 @@ function App() {
       <ThemeProvider theme={estaUsandoDark ? temaDark : temaLight}>
         <EstiloGlobal />
         <Container>
-          <Sidebar trocaTemaProp={trocaTema} />
+           <Sidebar trocaTemaProp={trocaTema} /> {/*recebe uma prop chamada trocaTemaProp, que é a função trocaTema. */}
           <main>
             <Sobre />
             <Projetos />

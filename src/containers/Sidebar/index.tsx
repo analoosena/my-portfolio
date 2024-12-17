@@ -5,7 +5,7 @@ import Titulo from '../../components/Titulo';
 import { BotaoTema, Descricao, SideBarContainer } from './styles';
 
 type Props = {
-  trocaTemaProp: () => void;
+  trocaTemaProp: () => void; //Uma função sem argumentos e sem retorno. Ela será usada para alternar o tema.
 }
 
 const Sidebar = (props: Props) => {

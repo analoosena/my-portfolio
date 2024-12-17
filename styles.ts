@@ -37,8 +37,3 @@ export const Container = styled.div`
     margin: 0 auto;
   }
 `;
-// #8b62a7 - Quaternaria
-// #ce8f8b - Terciaria
-// #fe6e95
-// #98a0ac - Secundária
-// #382b23 - Principal
