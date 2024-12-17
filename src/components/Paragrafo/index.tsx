@@ -3,9 +3,14 @@ import { Para } from './styles';
 
 export type Props = {
   children: string;
-  tipo?: 'principal' | 'secundario'
+  tipo?: 'principal' | 'secundario';
+  fontSize?: number;
 };
 
-const Paragrafo = ({ children, tipo = 'principal' }: Props) => <Para tipo={tipo}>{children}</Para>;
+const Paragrafo = ({ children, tipo = 'principal', fontSize }: Props) => (
+  <Para tipo={tipo} fontSize={fontSize}>
+    {children}
+  </Para>
+);
 
 export default Paragrafo;
