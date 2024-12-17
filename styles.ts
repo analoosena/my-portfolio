@@ -14,6 +14,7 @@ const EstiloGlobal = createGlobalStyle`
         margin: 0 auto;
         display: block;
         padding-bottom: 80px;
+        background-color: ${(props) => props.theme.cordeFundo};
         
         @media (max-width:768px){
           padding-top: 16px;
@@ -36,3 +37,8 @@ export const Container = styled.div`
     margin: 0 auto;
   }
 `;
+// #8b62a7 - Quaternaria
+// #ce8f8b - Terciaria
+// #fe6e95
+// #98a0ac - Secundária
+// #382b23 - Principal
