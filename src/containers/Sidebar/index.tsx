@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <aside>
       <img src="https://github.com/analoosena.png" alt="avatar" />
-      <Titulo>Ana Luíza Sena</Titulo>
+      <Titulo fontSize={20}>Ana Luíza Sena</Titulo>
     </aside>
   );
 };

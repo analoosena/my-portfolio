@@ -5,7 +5,7 @@ import Titulo from '../../components/Titulo';
 const Projetos = () => {
   return (
     <section>
-      <Titulo>Projetos</Titulo>
+      <Titulo fontSize={16}>Projetos</Titulo>
     </section>
   );
 };
